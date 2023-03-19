@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-portfolio-deploy
+  labels: 
+    name: my-portfolio
+    app: website
+spec: 
+  replicas: 1
+  selector:
+    matchLabels:
+      name: my-portfolio-pod
+      app: website
+  template:
+    metadata:
+      name: my-portfolio-pod
+      labels: 
+        name: my-portfolio-pod
+        app: website
+    spec:
+      containers:
+        - name: my-portfolio
+          image: oluwademilade/my_app
+          ports:
+            - containerPort: 80
