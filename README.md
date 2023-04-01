@@ -2,6 +2,6 @@
 
 ## Access the two deployed webapp  
 
-[Portfolio App](http://portfolio.fbayomide.me)  
+[Portfolio App](http://http://portfolio.ooluwademilade.ninja/)  
 
-[Sock Shop Example App](http://sockshop.fbayomide.me)
+[Sock Shop Example App](http://socks.ooluwademilade.ninja/)
