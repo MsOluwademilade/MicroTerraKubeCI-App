@@ -1,6 +1,4 @@
-# deploy-webapp-with-circle-ci
-
-## Access the two deployed webapp  
+# Access the two deployed webapp  
 
 [Portfolio App](http://portfolio.ooluwademilade.ninja/)  
 
